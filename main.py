@@ -13,11 +13,11 @@ from agent_state import AgentState
 from tool.tools import ALL_TOOLS
 
 MAX_HISTORY = 4   # 只保留最近 4 条（或你喜欢的数量）
-PPIO_API_KEY="sk__6uPjGHMGPugp-sVbUyfwK6BtGyx27BlkOZ0qWldB_M"
+PPIO_API_KEY="sk_"
 llm = ChatTongyi(
     model="qwen-max", 
     temperature=0,
-    api_key="sk-7105444cad4d4699806f10612e4c9a25",  
+    api_key="sk-",  
     
 )
 
